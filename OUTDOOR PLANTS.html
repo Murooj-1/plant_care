@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html class="page1">
+
+<head>
+    <title>pents</title>
+    <meta charset="utf-8">
+    <style>
+        body {
+            background-color: #FFEBBC;
+            margin: 0;
+            padding: 0;
+        }
+
+        .page1 body {
+            background-color: #ECF4D8;
+        }
+
+        .page2 body {
+            background-color: #F8F3D8;
+        }
+
+        #imgLogo {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 10px;
+        }
+
+        .menu-bar {
+            background-color: #FFF9F1;
+            box-shadow: 0 -8px 6px -6px #999;
+            text-align: center;
+        }
+
+        .menu-bar ul {
+            display: inline-flex;
+            list-style: none;
+            color: #221811;
+            padding: 0;
+        }
+
+        .menu-bar ul li {
+            margin: 15px;
+            padding: 15px;
+            text-align: center;
+            position: relative;
+        }
+
+        .menu-bar ul li a {
+            text-decoration: none;
+            color: #221811;
+        }
+
+        .menu-bar ul li:hover {
+            background: #FFF0DB;
+            border-radius: 3px;
+        }
+
+        .sub-menu {
+            display: none;
+        }
+
+        .menu-bar ul li:hover .sub-menu {
+            display: block;
+            position: absolute;
+            background: #FEEBD3;
+            border-radius: 3px;
+            margin-top: 13px;
+            margin-left: -15px;
+        }
+
+        .menu-bar ul li:hover .sub-menu ul {
+            display: block;
+            margin: 10px;
+        }
+
+        #h-rectangle {
+            background-image: url('h1.png');
+            background-size: cover;
+            color: #6C5700;
+            font-size: 60px;
+            font-family: 'Ribeye', serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .footer-links {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .footer-links li {
+            display: inline-block;
+            margin: 0 10px;
+        }
+
+        .footer-links a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .contact-info {
+            margin-top: 20px;
+        }
+
+        .copyright {
+            margin-top: 20px;
+            font-size: 14px;
+        }
+
+        .footer-links a:hover {
+            color: #9ACD32;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px;
+        }
+
+        .image-container img {
+            cursor: pointer;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .image-container img.selected {
+            transform: scale(1.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .main-content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            position: relative;
+        }
+
+        .main-content img {
+            width: 400px;
+            height: 400px;
+            margin-right: 20px;
+            transition: opacity 0.3s ease;
+        }
+
+        .text-content {
+            max-width: 600px;
+            border-radius: 15px;
+            background-color: #FFFFF3;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        #select-instruction {
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        #plant-name {
+            margin-top: 40px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .text-content p {
+            margin: 0;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <img id="imgLogo" src="LOGO.png" alt="PLANT" width="155" height="120">
+    </header>
+    <nav class="menu-bar">
+        <ul>
+            <li><a href="Home.html">HOME</a></li>
+            <li><a>ORNAMENTAL PLANTS</a>
+                <div class="sub-menu">
+                    <ul>
+                        <li><a href="indoor plants.html">INDOOR PLANTS</a></li>
+                        <li><a href="OUTDOOR PLANTS.html">OUTDOOR PLANTS</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="Rare plants.html">RARE PLANTS</a></li>
+            <li><a href="IG.html">IDEAS & GUIDELINES</a></li>
+            <li><a href="PSYCHOLOGY & PLANT.html">PSYCHOLOGY & PLANT</a></li>
+            <li><a href="PlantsCultrue.html">PLANT & CULTURE</a></li>
+            <li><a href="SustainableAgriculture.html">SUSTAINABLE AGRICULTURE</a></li>
+        </ul>
+    </nav>
+
+    <div id="h-rectangle">
+        <h4>Outdoor plants</h4>
+    </div>
+
+    <div class="image-container">
+        <img src="p1.png" alt="p1" onclick="changeImage('po1.png', 'Name of the plant : Ficus elastica', 'paragraph-container1', this)">
+        <img src="p2.png" alt="p2" onclick="changeImage('po2.png', 'Name of the plant : Yucca gigantea', 'paragraph-container4', this)">
+        <img src="p3.png" alt="p3" onclick="changeImage('po3.png', 'Name of the plant : Dracaena angustifolia', 'paragraph-container7', this)">
+        <img src="p4.png" alt="p4" onclick="changeImage('po4.png', 'Name of the plant : Ficus benjamina', 'paragraph-container10', this)">
+    </div>
+
+    <div class="main-content">
+        <img id="secondImage" src="po1.png" alt="p1" class="hidden">
+        <div class="text-content">
+            <div id="select-instruction">Choose a plant by clicking on the images above to learn more about it</div>
+            <h3 id="plant-name" class="hidden">Name of the plant</h3>
+            <div id="paragraph-container1" class="hidden">
+                <p>
+                    Water the plant when the top 1 to 1 inch of soil feels dry to the touch. Ficus elastica prefer consistent moisture, but it is necessary to let the soil dry out slightly between watering to prevent overwatering and root rot.
+                </p>
+            </div>
+            <div id="paragraph-container4" class="hidden">
+                <p>
+                    Yucca gigantea should be watered every few weeks during the active growing season between spring and summer, and less frequently in the fall and winter months. Excessive watering can be detrimental to this species. Yellowing or browning of the lower leaves is a sign of overwatering. Allow the soil to dry completely between waterings to prevent root rot.
+                </p>
+            </div>
+            <div id="paragraph-container7" class="hidden">
+                <p>
+                    In normal time, a mist of water can be sprayed towards the leaves to increase the surrounding humidity and prevent burrs Leaves from drying out. It should be noted that the dracaena angustifolia plant is sensitive to fluoride in tap water and dark spots or yellow edges may form on its leaves when tap water is used over the long term, so it is recommended to use collected rainwater or purified water.
+                </p>
+            </div>
+            <div id="paragraph-container10" class="hidden">
+                <p>
+                    Ficus benjamina should be watered regularly between spring and fall during the active growing season. Overwatering and underwatering can cause the leaves of this species to fall to the ground. It should be planted in a well-drained pot. Allow the soil to dry out slightly between waterings to prevent overwatering and root rot.
+                </p>
+            </div>
+        </div>
+    </div>
+
+         <footer>
+          <ul class="footer-links">
+                    <li><a href="Home.html" >HOME</a></li>
+                    <li><a href="indoor plants.html">INDOOR PLANTS</a></li>
+                    <li><a href="OUTDOOR PLANTS.html">OUTDOOR PLANTS</a></li>
+                    <li><a href="Rare plants.html">RARE PLANTS</a></li>
+                    <li><a href="IG.html">IDEAS & GUIDELINES</a></li>
+                    <li><a href="PSYCHOLOGY & PLANT.html">PSYCHOLOGY & PLANT</a></li>
+                    <li><a href="PlantsCultrue.html">PLANT & CULTURE </a></li>
+                    <li><a href="SustainableAgriculture.html">SUSTAINABLE AGRICULTURE</a></li>
+
+          </ul>
+
+          <div class="contact-info">
+              <p> contact number: 0123456789</p>
+              <p> contact email : PlantCare@gmail.com</p>
+          </div>
+
+          <div class="copyright">
+              <p>Copyright © 2024 PLANT CARE. All rights reserved.</p>
+          </div>
+      </footer>
+    <script>
+        function changeImage(imgSrc, plantName, paragraphId, clickedImage) {
+            document.getElementById('secondImage').src = imgSrc;
+            document.getElementById('secondImage').classList.remove('hidden');
+            document.getElementById('plant-name').innerText = plantName;
+            document.getElementById('plant-name').classList.remove('hidden');
+
+            document.querySelectorAll('.text-content > div').forEach(div => {
+                div.classList.add('hidden');
+            });
+            document.getElementById(paragraphId).classList.remove('hidden');
+
+            document.querySelectorAll('.image-container img').forEach(img => {
+                img.classList.remove('selected');
+            });
+            clickedImage.classList.add('selected');
+        }
+    </script>
+</body>
+
+</html>
