@@ -21,13 +21,22 @@ The website is dedicated to plants, aiming to educate and inspire visitors. It s
 The primary audience for the website includes plant enthusiasts, gardeners, art and nature lovers, mental health advocates, sustainability enthusiasts, the educational community, community builders, and the general public. The website aims to provide tailored content to cater to the diverse interests and needs of this audience.
 
 ### 6- Project Demo and Screenshots:
-Demo Video: [click here](https://drive.google.com/file/d/1LJvd2xkRGHnAEHiYAZ58-ePpyaUXxicd/view?usp=drive_link)
+#### * Demo Video: [click here](https://drive.google.com/file/d/1LJvd2xkRGHnAEHiYAZ58-ePpyaUXxicd/view?usp=drive_link)
 
 
-Screenshots :
+#### * Screenshots :
 
-
-
+<table align="center">
+  <tr>
+    <td><img src="https://github.com/Murooj-1/plant_care/blob/main/Screenshots/1.png" alt="Screenshot 1" width="300"/></td>
+    <td><img src="https://github.com/Murooj-1/plant_care/blob/main/Screenshots/2.png" alt="Screenshot 2" width="300"/></td>
+ 
+  </tr>
+  <tr>
+    <td><img src="https://github.com/Murooj-1/plant_care/blob/main/Screenshots/3.png" alt="Screenshot 3" width="300"/></td>
+    <td><img src="https://github.com/Murooj-1/plant_care/blob/main/Screenshots/4.png" alt="Screenshot 4" width="300"/></td>
+  </tr>
+</table>
 ### 7- Work team :
 Murooj Al-Zahrani
 
