@@ -10,7 +10,7 @@
 ### 3- Project Home Page :
 
 <p align="center">
-  <img src="" alt="project Demo" width="800" />
+  <img src="https://github.com/Murooj-1/plant_care/blob/main/Demo/Home%20page%20.gif" alt="project Demo" width="800" />
 </p>
 
 ### 4- Project Summary and Project Aims :
