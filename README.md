@@ -4,7 +4,7 @@
 ### 2- Project Logo:
 
 
-  <img src="" alt="project Logo" width="150" height="110"/>
+  <img src="https://github.com/Murooj-1/plant_care/blob/main/images/logo.png" alt="project Logo" width="150" height="110"/>
 
 
 ### 3- Project Home Page :
