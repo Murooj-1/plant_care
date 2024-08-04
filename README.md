@@ -30,6 +30,7 @@ The primary audience for the website includes plant enthusiasts, gardeners, art 
   <tr>
     <td><img src="https://github.com/Murooj-1/plant_care/blob/main/Screenshots/1.png" alt="Screenshot 1" width="800"/></td>
         <td><img src="https://github.com/Murooj-1/plant_care/blob/main/Screenshots/6.png" alt="Screenshot 6" width="800" height="510" /></td>
+          <td><img src="https://github.com/Murooj-1/plant_care/blob/main/Screenshots/9.png" alt="Screenshot 9" width="800"  /></td>
 
   </tr>
   <tr>
