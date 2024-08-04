@@ -3,9 +3,9 @@
 
 ### 2- Project Logo:
 
-
+<div align="center">
   <img src="https://github.com/Murooj-1/plant_care/blob/main/images/logo.png" alt="project Logo" width="150" height="110"/>
-
+</div>
 
 ### 3- Project Home Page :
 
