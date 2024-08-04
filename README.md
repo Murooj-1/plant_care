@@ -29,13 +29,14 @@ The primary audience for the website includes plant enthusiasts, gardeners, art 
 <table align="center">
   <tr>
     <td><img src="https://github.com/Murooj-1/plant_care/blob/main/Screenshots/1.png" alt="Screenshot 1" width="300"/></td>
-    <td><img src="https://github.com/Murooj-1/plant_care/blob/main/Screenshots/2.png" alt="Screenshot 2" width="300"/></td>
-     <td><img src="https://github.com/Murooj-1/plant_care/blob/main/Screenshots/3.png" alt="Screenshot 3" width="300"/></td>
-    <td><img src="https://github.com/Murooj-1/plant_care/blob/main/Screenshots/4.png" alt="Screenshot 4" width="300"/></td>
+        <td><img src="https://github.com/Murooj-1/plant_care/blob/main/Screenshots/6.png" alt="Screenshot 6" width="300"/></td>
+
   </tr>
   <tr>
     <td><img src="https://github.com/Murooj-1/plant_care/blob/main/Screenshots/5.png" alt="Screenshot 5" width="300"/></td>
-    <td><img src="https://github.com/Murooj-1/plant_care/blob/main/Screenshots/6.png" alt="Screenshot 6" width="300"/></td>
+    <td><img src="https://github.com/Murooj-1/plant_care/blob/main/Screenshots/2.png" alt="Screenshot 2" width="300"/></td>
+     <td><img src="https://github.com/Murooj-1/plant_care/blob/main/Screenshots/3.png" alt="Screenshot 3" width="300"/></td>
+    <td><img src="https://github.com/Murooj-1/plant_care/blob/main/Screenshots/4.png" alt="Screenshot 4" width="300"/></td>
      <td><img src="https://github.com/Murooj-1/plant_care/blob/main/Screenshots/7.png" alt="Screenshot 7" width="300"/></td>
     <td><img src="https://github.com/Murooj-1/plant_care/blob/main/Screenshots/8.png" alt="Screenshot 8" width="300"/></td>
   </tr>
