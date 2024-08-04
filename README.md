@@ -21,10 +21,10 @@ The website is dedicated to plants, aiming to educate and inspire visitors. It s
 The primary audience for the website includes plant enthusiasts, gardeners, art and nature lovers, mental health advocates, sustainability enthusiasts, the educational community, community builders, and the general public. The website aims to provide tailored content to cater to the diverse interests and needs of this audience.
 
 ### 6- Project Demo and Screenshots:
-#### * Demo Video: [click here](https://drive.google.com/file/d/1LJvd2xkRGHnAEHiYAZ58-ePpyaUXxicd/view?usp=drive_link)
 
+- **Demo Video:** <span style="font-weight: normal;">[click here](https://drive.google.com/file/d/1LJvd2xkRGHnAEHiYAZ58-ePpyaUXxicd/view?usp=drive_link)</span>
+- **Screenshots :** 
 
-#### * Screenshots :
 
 <table align="center">
   <tr>
@@ -46,15 +46,15 @@ The primary audience for the website includes plant enthusiasts, gardeners, art 
 </table>
 
 ### 7- Work team :
-Murooj Al-Zahrani
+ - Murooj Al-Zahrani
 
-Manar Al-Mashi
+ - Manar Al-Mashi 
 
-Lamis Mohammed
+ - Lamis Mohammed
 
-Rahaf Al-Mehdar
+ - Rahaf Al-Mehdar
 
-Farah Al-Ansari 
+ - Farah Al-Ansari 
 
 
 
